@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/default-book-view.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/pdf.min.js"></script>
+    <script src="js/pdf.worker.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="dist/flip-book.js"></script>
+</head>
+<body>
+    <div class="flip-book-container" style="height: 900px;width: 900px;margin: auto;"></div>
+    <script>
+        options = {
+            pdf: 'pdf.pdf',
+            pages: 5,
+        }
+        var book = $('.flip-book-container').FlipBook(options);
+    </script>
+</body>
+</html>
