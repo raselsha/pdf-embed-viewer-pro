@@ -32,7 +32,8 @@ if( ! class_exists( 'PDFEV_PRO' ) ){
         }
 
         public static function include_plugin_files() {
-            //require_once PDFEV_PRO_Const_Path . 'classes/cpt-register.php';
+            
+            require_once PDFEV_PRO_Const_Path . 'classes/enque-style-script.php';
         }
 
         public static function activate(){
