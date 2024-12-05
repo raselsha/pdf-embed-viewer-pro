@@ -2887,8 +2887,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
     }
   }
 
-  _libs.PDFJS.workerSrc = (window.PDFJS_LOCALE ? PDFJS_LOCALE : { "pdfJsWorker": "js/pdf.worker.js", "pdfJsCMapUrl": "cmaps/" }).pdfJsWorker;
-  _libs.PDFJS.cMapUrl = (window.PDFJS_LOCALE ? PDFJS_LOCALE : { "pdfJsWorker": "js/pdf.worker.js", "pdfJsCMapUrl": "cmaps/" }).pdfJsCMapUrl;
+  _libs.PDFJS.workerSrc = (window.PDFJS_LOCALE ? PDFJS_LOCALE : { "pdfJsWorker": "assets/js/pdf.worker.js", "pdfJsCMapUrl": "cmaps/" }).pdfJsWorker;
+  _libs.PDFJS.cMapUrl = (window.PDFJS_LOCALE ? PDFJS_LOCALE : { "pdfJsWorker": "assets/js/pdf.worker.js", "pdfJsCMapUrl": "cmaps/" }).pdfJsCMapUrl;
   _libs.PDFJS.cMapPacked = true;
 
   var Pdf = function () {
@@ -6136,7 +6136,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
           rel: 'stylesheet',
           href: 'assets/css/font-awesome.min.css'
         }],
-        script: 'js/default-book-view.js'
+        script: 'assets/js/default-book-view.js'
       };
     };
 
